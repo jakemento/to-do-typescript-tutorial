@@ -115,3 +115,8 @@ for (var _i = 0, thorTasks_1 = thorTasks; _i < thorTasks_1.length; _i++) {
     var task = thorTasks_1[_i];
     console.log(task);
 }
+$(document).ready(function () {
+    for (i = 0; i < tasks.length; i++) {
+        $('.tasks').append("<h1>" + tasks[i].description + "</h1>");
+    }
+});
