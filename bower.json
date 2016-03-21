@@ -1,0 +1,21 @@
+{
+  "name": "to-do-list",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Jake Steinberg <jakesteinberg@gmail.com>"
+  ],
+  "license": "ISC",
+  "moduleType": [],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^2.2.2"
+  }
+}
